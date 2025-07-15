@@ -36,7 +36,11 @@ mod.fit(x_train, y_train)
 
 # Evaluation
 y_pred = mod.predict(x_test)
+<<<<<<< HEAD
 print(classification_report(y_test, y_pred))
 joblib.dump(mod, "best_model.pkl")
 joblib.dump(scaler, "scaler.pkl")
 joblib.dump(label_encoder, "label_encoder.pkl")
+=======
+print(classification_report(y_test, y_pred))
+>>>>>>> feature
